@@ -1,0 +1,198 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+/* logo */
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+header{
+    border-bottom:2px solid brown;
+    border-top: 2px solid brown;
+}
+
+#Servicios p {
+    margin: 25px 15px;
+    font-size: 20px;
+
+
+}
+
+#Servicios  li{
+  margin: 15px 30px;
+  font-size: 20px;
+
+}
+
+
+#Servicios h2{
+margin-top:30px ;
+text-align: center;
+font-size:30px;
+
+
+
+}
+
+
+#video-uno{
+    float: right;
+    margin-right: 200px;
+    margin-top: -80px;
+    background-color: #ff5252;
+    box-shadow: 5px 5px 5px;
+    border: 2px brown;
+}
+
+/* Nacigation Bar */
+
+nav{
+    background-color:#ff5252 ;
+    padding:27px;
+    text-align:center;
+    color: white;
+}
+
+nav ul {
+   list-style: none;
+}
+
+
+nav ul li{
+    display:inline-block;
+    margin-right: 15px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+   
+    
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.Container{
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    border-bottom:5px solid #ff5252;
+    border-top: 5px solid #ff5252;
+}
+
+#Sobre-Mi h2{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#Sobre-Mi p {
+font-size: 30px;
+padding-top: 15px;
+float: right;
+margin-right: 65px;
+margin-top: 100px;
+}
+
+
+
+#Sobre-Mi img{
+   width: 350px;
+   height: 450px;
+   object-fit: cover; 
+   flex-direction: row; 
+   display: flex;
+   margin-top: -50px;
+   padding: 60px;
+   margin-left: 50px;
+   filter: brightness(100%) saturate(100%);
+
+}
+
+
+
+
+/* CSS TESTIMONIALS */
+
+
+.testimonials{
+    padding-bottom: 2.2em; 
+    text-align: center;
+    color: #666;
+}
+.testimonials h1{
+    color: #222;
+    font-size: 1.3em;
+}
+.testimonials .test-body{padding: 1em;}
+.testimonials .item{ 
+    text-align: center;
+    padding: 1em 0;
+}
+.testimonials img{
+    width: 4.8em;
+    height: 4.8em;
+    border-radius: 50%;
+}
+.testimonials .name{color: blue;}
+.testimonials .desig{
+    font-size: 0.7em;
+    padding: 0.5em 0;
+    color: #777;
+}
+.testimonials .share{
+    margin: 0 auto;
+    width: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+
+
+.testimonials p{
+    max-width: 27em;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+
+
+
+    
+    .testimonials .test-body{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .testimonials p{
+        text-align: left;
+        padding: 1em;
+    }
+}
