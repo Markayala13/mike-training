@@ -7,143 +7,177 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
 font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-/* logo */
-
-#logo{
+.header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
+    height: 430px;
+    flex-flow: column;
+   
+    
 }
 
-header{
-    border-bottom:2px solid brown;
-    border-top: 2px solid brown;
-}
-
-#Servicios p {
-    margin: 25px 15px;
-    font-size: 20px;
-
-
-}
-
-#Servicios  li{
-  margin: 15px 30px;
-  font-size: 20px;
-
-}
-
-
-#Servicios h2{
-margin-top:30px ;
-text-align: center;
-font-size:30px;
-
-
-
-}
-
-
-#video-uno{
-    float: right;
-    margin-right: 200px;
-    margin-top: -80px;
-    background-color: #ff5252;
-    box-shadow: 5px 5px 5px;
-    border: 2px brown;
-}
-
-/* Nacigation Bar */
-
-nav{
-    background-color:#ff5252 ;
-    padding:27px;
-    text-align:center;
+.main-menu{
     color: white;
-}
-
-nav ul {
-   list-style: none;
-}
-
-
-nav ul li{
-    display:inline-block;
-    margin-right: 15px;
+    background-color: rgb(84, 84, 238);
+    border-top: 5px solid #ff5252;
+    border-bottom: 5px solid #ff5252;
+    padding-bottom: 10px;
+    padding-top: 10px;
    
 }
 
-nav ul li a{
+
+
+
+
+
+.main-menu  li a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+    display: list-item;
+}
    
+
+
+
+.main-menu ul li a:hover {
+	background-color: #ff5252;
+	color: black;
+    transition: all .5s ease;
+    font-display: block;
     
 }
 
-nav ul li a:hover{
-    color: black;
+.content-area{
+    display: flex;
+    flex-flow: column;
+    }
+   
+
+.Slogan{
+    font-size: 40PX;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
 }
+
+
+.context{
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.video-uno{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 30px;
+  
+}
+
+.video-uno video {
+
+background-color: #ff5252;
+height: 250px;
+width: 300px;
+box-shadow: 5px 5px 5px;
+    border: 5px solid rgb(84, 84, 238);
+
+}
+
+
+    
+
+
+.Servicios{
+    font-size: 25px;
+    padding-bottom: 40PX;
+    padding-top: 40px;
+    text-align: center;
+}
+
 
 .Container{
-    width: 100%;
-    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
     background-color: black;
     color: white;
-    border-bottom:5px solid #ff5252;
-    border-top: 5px solid #ff5252;
+    
+
 }
 
-#Sobre-Mi h2{
-    padding-top: 20px;
-    font-size: 40px;
+.Container h2 {
+    display: flex;
+    flex-flow: column;
     text-align: center;
+    font-size: 35px;
+  
+   
+
 }
 
-#Sobre-Mi p {
-font-size: 30px;
-padding-top: 15px;
-float: right;
-margin-right: 65px;
-margin-top: 100px;
-}
+.Container p{
+    font-size: 25px;
+    padding:0 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    
 
-
-
-#Sobre-Mi img{
-   width: 350px;
-   height: 450px;
-   object-fit: cover; 
-   flex-direction: row; 
-   display: flex;
-   margin-top: -50px;
-   padding: 60px;
-   margin-left: 50px;
-   filter: brightness(100%) saturate(100%);
 
 }
 
 
 
+.Container img{
+    width: 100%;
+    max-width: 50%;
+height: auto;
+border-radius:8%;
+margin: 0 auto;
+}
 
-/* CSS TESTIMONIALS */
+.Galleria{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 30px;
+   gap: 50px;
+}
 
+
+.Galleria video{
+    background-color: #ff5252;
+height: 250px;
+width: 300px;
+box-shadow: 5px 5px 5px;
+    border: 5px solid rgb(84, 84, 238);
+     
+}
 
 .testimonials{
-    padding-bottom: 2.2em; 
-    text-align: center;
-    color: #666;
+    display: flex;
+    flex-flow: column;
 }
+
 .testimonials h1{
-    color: #222;
-    font-size: 1.3em;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
 }
+
+
+
 .testimonials .test-body{padding: 1em;}
 .testimonials .item{ 
     text-align: center;
@@ -156,9 +190,9 @@ margin-top: 100px;
 }
 .testimonials .name{color: blue;}
 .testimonials .desig{
-    font-size: 0.7em;
+    font-size: 15px;
     padding: 0.5em 0;
-    color: #777;
+    color: black;
 }
 .testimonials .share{
     margin: 0 auto;
@@ -171,28 +205,70 @@ margin-top: 100px;
             justify-content: space-between;
 }
 
-
-
 .testimonials p{
-    max-width: 27em;
+    max-width: 30%;
     margin: 0 auto;
-    font-size: 0.8em;
+    font-size: 15px;
+    color: black;
+}
+
+
+.llamame{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    max-width: 100%;
+}
+
+
+.llamame p{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.llamame p:hover{
+    color: #ff5252;
+    transition: .5s;
+    
+    
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(84, 84, 238);
+    border-top: 5px solid #ff5252;
+    border-bottom: 5px solid #ff5252;
+}
+
+.container-boton{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    transition: ease 0.6s;
+    
+
+
 }
 
 
 
 
+.container-boton:hover {
+    transform: scale(1.5);
+    transition: 0.6s;
+}
+
+.boton {
+    width: 100px;
     
-    .testimonials .test-body{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-    .testimonials p{
-        text-align: left;
-        padding: 1em;
-    }
+    transition: ease 1s;
+    padding-bottom: 40px;
+
+
+
+
 }
