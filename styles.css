@@ -1,7 +1,4 @@
-
-
-
-*{
+* {
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
@@ -9,27 +6,47 @@
 
 
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
-font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-.header{
+.header {
     display: flex;
     height: 430px;
     flex-flow: column;
-   
-    
+font-size: 15px;
+
+
 }
 
-.main-menu{
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagenes img {
+    margin-right: 0px;
+    
+    max-height: 100px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.main-menu {
     color: white;
     background-color: rgb(84, 84, 238);
     border-top: 5px solid #ff5252;
     border-bottom: 5px solid #ff5252;
     padding-bottom: 10px;
     padding-top: 10px;
-   
+
 }
 
 
@@ -37,68 +54,68 @@ font-family: 'Saira Extra Condensed', sans-serif;
 
 
 
-.main-menu  li a{
+.main-menu li a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    
     padding-left: 20px;
     display: list-item;
 }
-   
+
 
 
 
 .main-menu ul li a:hover {
-	background-color: #ff5252;
-	color: black;
+    background-color: #ff5252;
+    color: black;
     transition: all .5s ease;
     font-display: block;
-    
+
 }
 
-.content-area{
+.content-area {
     display: flex;
     flex-flow: column;
-    }
-   
-
-.Slogan{
-    font-size: 40PX;
-    padding-bottom: 20px;
-    text-align: center;
-    padding-top: 50px;
 }
 
 
-.context{
+.Slogan {
+    font-size: 40px;
+    margin-top: -90px;
+
+    text-align: center;
+}
+
+
+.context {
     font-size: 20px;
     padding-bottom: 30px;
     text-align: center;
 }
 
-.video-uno{
+.video-uno {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding-top: 30px;
-  
+
 }
 
 .video-uno video {
 
-background-color: #ff5252;
-height: 250px;
-width: 300px;
-box-shadow: 5px 5px 5px;
+    background-color: #ff5252;
+    height: 250px;
+    width: 300px;
+    box-shadow: 5px 5px 5px;
     border: 5px solid rgb(84, 84, 238);
 
 }
 
 
-    
 
 
-.Servicios{
+
+.Servicios {
     font-size: 25px;
     padding-bottom: 40PX;
     padding-top: 40px;
@@ -106,14 +123,14 @@ box-shadow: 5px 5px 5px;
 }
 
 
-.Container{
+.Container {
     display: flex;
     flex-flow: column;
     justify-content: center;
     text-align: center;
     background-color: black;
     color: white;
-    
+
 
 }
 
@@ -122,55 +139,55 @@ box-shadow: 5px 5px 5px;
     flex-flow: column;
     text-align: center;
     font-size: 35px;
-  
-   
+
+
 
 }
 
-.Container p{
+.Container p {
     font-size: 25px;
-    padding:0 50px;
+    padding: 0 50px;
     text-align: center;
     padding-bottom: 10px;
-    
+
 
 
 }
 
 
 
-.Container img{
+.Container img {
     width: 100%;
     max-width: 50%;
-height: auto;
-border-radius:8%;
-margin: 0 auto;
+    height: auto;
+    border-radius: 8%;
+    margin: 0 auto;
 }
 
-.Galleria{
+.Galleria {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding-top: 30px;
-   gap: 50px;
+    gap: 50px;
 }
 
 
-.Galleria video{
+.Galleria video {
     background-color: #ff5252;
-height: 250px;
-width: 300px;
-box-shadow: 5px 5px 5px;
+    height: 250px;
+    width: 300px;
+    box-shadow: 5px 5px 5px;
     border: 5px solid rgb(84, 84, 238);
-     
+
 }
 
-.testimonials{
+.Testimonios {
     display: flex;
     flex-flow: column;
 }
 
-.testimonials h1{
+.Testimonios h1 {
     text-align: center;
     padding-top: 100px;
     font-size: 50px;
@@ -178,34 +195,44 @@ box-shadow: 5px 5px 5px;
 
 
 
-.testimonials .test-body{padding: 1em;}
-.testimonials .item{ 
+.Testimonios .test-body {
+    padding: 1em;
+}
+
+.Testimonios .item {
     text-align: center;
     padding: 1em 0;
 }
-.testimonials img{
+
+.Testimonios img {
     width: 4.8em;
     height: 4.8em;
     border-radius: 50%;
+    object-fit: cover;
 }
-.testimonials .name{color: blue;}
-.testimonials .desig{
+
+.Testimonios .name {
+    color: blue;
+}
+
+.Testimonios .desig {
     font-size: 15px;
     padding: 0.5em 0;
     color: black;
 }
-.testimonials .share{
+
+.Testimonios .share {
     margin: 0 auto;
     width: 5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
-.testimonials p{
+.Testimonios p {
     max-width: 30%;
     margin: 0 auto;
     font-size: 15px;
@@ -213,7 +240,7 @@ box-shadow: 5px 5px 5px;
 }
 
 
-.llamame{
+.llamame {
     display: flex;
     flex-flow: column;
     padding: 10px;
@@ -221,20 +248,20 @@ box-shadow: 5px 5px 5px;
 }
 
 
-.llamame p{
+.llamame p {
     text-align: center;
     font-size: 30px;
     padding-bottom: 40px;
 }
 
-.llamame p:hover{
+.llamame p:hover {
     color: #ff5252;
     transition: .5s;
-    
-    
+
+
 }
 
-footer{
+footer {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -244,12 +271,12 @@ footer{
     border-bottom: 5px solid #ff5252;
 }
 
-.container-boton{
+.container-boton {
     display: flex;
     flex-flow: column;
     align-items: center;
     transition: ease 0.6s;
-    
+
 
 
 }
@@ -264,9 +291,637 @@ footer{
 
 .boton {
     width: 100px;
-    
+
     transition: ease 1s;
     padding-bottom: 40px;
+}
+
+
+
+/*TERMINA RESPONSIVE///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+
+
+   
+
+
+    .content-area {
+        display: flex;
+        flex-direction: column;
+      
+        align-items: center;
+        
+        justify-content: center;
+       
+
+    }
+
+
+
+    .Slogan {
+        margin-bottom: 30px;
+        margin-top: 130px;
+        font-size: 50px;
+
+
+
+    }
+
+    .context {
+
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .header {
+        display: flex;
+        height: 430px;
+        flex-flow: column;
+        gap: 50px;
+        background-color: white;
+
+
+    }
+
+    .imagenes {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagenes img {
+        margin-right: 0px;
+        max-height: 200px;
+        margin-top: 50px;
+
+
+
+    }
+
+    .main-menu {
+        color: white;
+        background-color: rgb(84, 84, 238);
+        border-top: 5px solid #ff5252;
+        border-bottom: 5px solid #ff5252;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+
+
+
+
+
+    .main-menu li a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        display: list-item;
+    }
+
+
+
+
+    .main-menu ul li a:hover {
+        background-color: #ff5252;
+        color: black;
+        transition: all .5s ease;
+        font-display: block;
+
+    }
+
+    .Servicios {
+        font-size: 30px;
+    }
+
+    /*SOBRE MI//////////////////////////////////////////////////////////////*/
+
+
+
+
+    .Container {
+        display: flex;
+        flex-flow: row;
+
+
+
+
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sobre-Mi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1024px;
+        /* Limita el ancho a 1024px */
+        margin: 0 auto;
+        /* Centra el contenedor */
+    }
+
+    .Sobre-Mi img {
+        width: 100%;
+        /* Asegura que la imagen ocupe el 100% del contenedor */
+        max-width: 300px;
+        /* Establece un ancho máximo para la imagen */
+        align-self: flex-start;
+        /* Alinea la imagen a la izquierda */
+    }
+
+    .Sobre-Mi h2 {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        font-size: 50px;
+    }
+
+    .Sobre-Mi .Content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .Sobre-Mi p {
+        max-width: 600px;
+        /* Establece un ancho máximo para el texto */
+        margin-left: 20px;
+        /* Ajusta el margen izquierdo para separar el texto de la imagen */
+        font-size: 30px;
+    }
+
+
+
+    .content-area {
+        display: flex;
+        flex-flow: column;
+
+    }
+
+    /*VIDEO-UNO//////////////////////////////////////////////////////////////////////////*/
+
+    .video-uno {
+        display: flex;
+
+        padding-top: 200px;
+
+    }
+
+    .video-uno video {
+
+
+        flex-basis: 50%;
+        width: 400px;
+        box-sizing: border-box;
+    }
+
+    /* GALLERIA///////////////////////////////////////////////////////////////////////*/
+
+    .Galleria {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+    }
+
+    .Galleria video {
+
+
+        flex: 1;
+        max-width: 48%;
+        /* Ajusta según sea necesario */
+        box-sizing: border-box;
+        margin-right: 4%;
+        /* Ajusta según sea necesario para el espacio entre los videos */
+        margin-left: 4%;
+        height: 300px;
+
+
+    }
+
+
+
+    /* CSS TESTIMONIALS */
+
+
+    .Testimonios {
+        padding-bottom: 2.2em;
+        text-align: center;
+        color: #666;
+    }
+
+    .Testimonios h1 {
+        color: #222;
+        font-size: 50px;
+    }
+
+    .Testimonios .test-body {
+        padding: 1em;
+    }
+
+    .Testimonios .item {
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .Testimonios img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .Testimonios .name {
+        color: blue;
+    }
+
+    .Testimonios .desig {
+        font-size: 0.7em;
+        padding: 0.5em 0;
+        color: #777;
+    }
+
+    .Testimonios .share {
+        margin: 0 auto;
+        width: 5em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+
+
+    .Testimonios p {
+        max-width: 27em;
+        margin: 0 auto;
+        font-size: 0.8em;
+    }
+
+
+
+
+
+    .Testimonios .test-body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .Testimonios p {
+        text-align: left;
+        padding: 1em;
+    }
+
+
+
+
+    /*FOOTER///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    footer {
+        display: flex;
+        flex-flow: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        background-color: rgb(84, 84, 238);
+        border-top: 5px solid #ff5252;
+        border-bottom: 5px solid #ff5252;
+        font-size: 20px;
+    }
+}
+
+
+/*///////////// CSS TERMINA TABLET/////////////////////////////////////////////////////////*/
+
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1600px) {
+
+    
+
+    .header {
+        display: flex;
+        : 1font-size0px !important;
+        flex-flow: column;
+
+        background-color: white;
+
+
+    }
+
+    .imagenes {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagenes img {
+
+        max-height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+
+
+    }
+
+    .content-area {
+
+        display: flex;
+        flex-flow: column;
+        align-content: flex-end;
+        padding-top: 150px;
+
+
+    }
+
+    /*///////////////////////////////////////////////////////////NAVIGATION//////////////////////////////////////*/
+    
+    .main-menu ul {
+        list-style: none;
+        margin: 30px;
+        padding: 0px;
+        text-align: center;
+       
+    }
+    
+    .main-menu li {
+        display: inline-block;
+        margin-right: 60px;
+        
+    }
+
+    .main-menu a {
+        text-decoration: none;
+        color: #333; 
+        padding: 10px 10px;
+        font-size: 30px;
+       
+       
+       
+    }
+    
+    .main-menu a:hover {
+        background-color: #000; 
+        
+    }
+       
+    
+
+    
+
+   
+  
+        
+        
+        
+
+    
+
+
+
+
+
+
+    /*///////////////////////////////////////////////////////SLOGAN/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+    .Slogan {
+
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .context {
+        font-size: 30px;
+    }
+
+.Container {
+        display: flex;
+        flex-flow: row;
+
+    }
+
+    /*VIDEO-UNO//////////////////////////////////////////////////////////////////////////*/
+
+    .video-uno {
+        display: flex;
+
+        padding-top: 50px;
+
+    }
+
+    .video-uno video {
+
+
+        flex-basis: 40%;
+        width: 300px;
+    }
+
+    /*SERVICIOS//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    .Servicios {
+        font-size: 30PX;
+
+    }
+
+
+    /*/////////////////////////////*SOBRE MI ///////////////////////////////////////////////////////*/
+    .Sobre-Mi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Sobre-Mi img {
+        width: 100%;
+        max-width: 300px;
+        align-self: flex-start;
+        order: 2;
+    }
+
+    .Sobre-Mi h2 {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+        font-size: 50px;
+    }
+
+    .Sobre-Mi .Content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .Sobre-Mi p {
+        max-width: 900px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* GALLERIA///////////////////////////////////////////////////////////////////////*/
+
+    .Galleria {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+
+    }
+
+    .Galleria video {
+
+
+        flex: 1;
+        max-width: 40%;
+        box-sizing: border-box;
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 300px;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+    /*///////////////////////////////////// CSS TESTIMONIALS ////////////////////////////////////*/
+
+
+    .Testimonios {
+        padding-bottom: 2.2em;
+        text-align: center;
+        color: #666;
+    }
+
+    .Testimonios h1 {
+        color: #222;
+        font-size: 50px;
+    }
+
+    .Testimonios .test-body {
+        padding: 10px;
+    }
+
+    .Testimonios .item {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .Testimonios img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .Testimonios .name {
+        color: blue;
+        font-size: 25px;
+    }
+
+
+    .Testimonios .desig {
+        font-size: 25px;
+        padding: 5px 0;
+        color: #777;
+    }
+
+    .Testimonios .share {
+        margin: 0 auto;
+        width: 5PX;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+
+
+    .Testimonios p {
+        max-width: 432px;
+        margin: 0 auto;
+        font-size: 19px;
+    }
+
+
+
+
+
+    .Testimonios .test-body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .Testimonios p {
+        text-align: left;
+        padding: 1em;
+    }
+
+
+
+    
+
+    /*LLAMAME//////////////////////////////////////////////////////////////////////////////////*/
+    .llamame h2 p {
+        font-size: 40px;
+    }
+
+    /*FOOTER//////////////////////////////////////////////////////////////////////////////////*/
+
+    footer {
+        display: flex;
+        flex-flow: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        background-color: rgb(84, 84, 238);
+        border-top: 5px solid #ff5252;
+        border-bottom: 5px solid #ff5252;
+        font-size: 30px;
+    }
+
 
 
 
